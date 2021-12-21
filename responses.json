@@ -1,0 +1,279 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hey"
+      ],
+      "responses": [
+        "Hey",
+        "Hello, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi! This is Michael from customer support. How can i help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, hope I was of help!",
+        "Have a nice day!",
+        "Bye! hope I was of help!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!",
+        "thx"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "Can I pay with card?",
+        "Is card available?",
+        "Can I use cash?",
+        "What are the methods of payment?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal. Cash can also be used at the terminals within the station.",
+        "We accept most major credit cards, and Paypal. Cash can also be used at the terminals within the station."
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "How can I book my tickets?",
+        "How can I book my train tickets?",
+        "Where can I get my train tickets?",
+        "How do I get my train tickets?",
+        "How to buy tickets?",
+        "How can I buy a ticket?",
+        "How to buy train tickets?",
+        "How can I buy a train ticket?",
+        "Buying train tickets.",
+        "Buying tickets.",
+        "Tickets.",
+        "Booking",
+        "How to book tickets.",
+        "Train tickets."
+      ],
+      "responses": [
+        "You can book your tickets at either the machine within the train station or at our website: https://xyz.com"
+      ]
+    },
+    {
+      "tag": "customer support",
+      "patterns": [
+        "What is the number for customer support?",
+        "Customer support number",
+        "Can I have the number for customer support?",
+        "What number can I contact for support?",
+        "Phone number.",
+        "Number",
+        "What is your phone number?",
+        "How do I phone customer support?",
+        "How can I phone customer support?",
+        "What number can I call?"
+      ],
+      "responses": [
+        "The number for customer support is: 01202 435345.",
+        "01202 435345 is the number for customer support."
+      ]
+    },
+    {
+      "tag": "prices",
+      "patterns": [
+        "What are the prices for train tickets?",
+        "What are the prices for tickets?",
+        "How much is a ticket?",
+        "How much is a train ticket?",
+        "How much are tickets?",
+        "How much are train tickets?",
+        "Ticket prices",
+        "Train ticket prices"
+      ],
+      "responses": [
+        "Train ,ticket prices vary. The most basic tickets are: For Returns: £15, For Singles: £7.50"
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "Are refunds available?",
+        "Could I have a refund?",
+        "Could I have a refund for my ticket?",
+        "Could I refund my ticket please?",
+        "Refund",
+        "How to get refunds?",
+        "How do I get refunds?",
+        "How do I claim a refund?",
+        "Can I have a refund?",
+        "Can I have a refund for a cancelled train?",
+        "Can I have a refund for a late train?",
+        "My train was cancelled. can I have a refund?"
+      ],
+      "responses": [
+        "Refunds are available at our site: https://xyz.com"
+      ]
+      },
+      {
+        "tag": "late train",
+        "patterns": [
+          "My train is late.",
+          "Late train.",
+          "What to do if my train is late?",
+          "What should I do if my train is late?",
+          "Can you help me if my train is late?",
+          "My train is late. What do I do?"
+      ],
+        "responses": [
+          "Apologies for the inconvenience. If the train is later than 15 minutes you can apply for compensation at our site: https://xyz.com"
+      ]
+      },
+      {
+       "tag": "train cancelled",
+       "patterns": [
+         "My train was cancelled.",
+         "Train cancelled.",
+         "What to do if my train is cancelled?",
+         "What should I do if my train is cancelled?",
+         "What should I do if my train gets cancelled?",
+         "Can you help me if my train gets cancelled?",
+         "Can you help me if my train is cancelled?",
+         "My train was cancelled. What should I do?",
+         "My train was cancelled. What do I do?"
+      ],
+        "responses": [
+          "Apologies for the inconvenience. You can apply for a refund at our site: https://xyz.com or get a later train"
+	  ]
+     },
+    {
+      "tag": "train schedules",
+      "patterns": [
+        "What are the train schedules?",
+        "What times are the trains?",
+        "What times do the trains run?",
+        "What times do trains run?",
+        "How do I know when a train is running?",
+        "When is my train?",
+        "What time is my train at?",
+        "What time is my train?",
+        "Schedule.",
+        "Train schedule.",
+        "What is the train schedules?",
+        "What is the schedules of trains?"
+      ],
+      "responses": [
+        "To see our train scheduling, please visit: https://xyz.com/schedules"
+      ]
+    },
+    {
+      "tag": "incidents",
+      "patterns": [
+        "Report.",
+        "I would like to report an issue.",
+        "I would like to report an incident",
+        "Incident.",
+        "Incidents.",
+        "I want to report something.",
+        "I would like to report something.",
+        "Im in danger.",
+        "Can I report something?",
+        "There is an issue.",
+        "There is an issue with the train",
+        "I would like to report an issue with a train.",
+        "How do I report an issue?",
+        "How do I report a problem?",
+        "How do I report a problem with the train?",
+        "How do I report an issue with the train?",
+        "There is someone in danger.",
+        "Someone is in danger.",
+        "Report staff member.",
+        "Report staff.",
+        "I would like to report a staff member.",
+        "I would like to report someone from staff.",
+        "How do I report a staff member?",
+        "How do I report someone from staff?",
+        "A staff member was rude to me.",
+        "A staff member made me feel threatened."
+      ],
+      "responses": [
+        "If you or someone else in in danger please dial 999. If it is a minor incident, please call or text: 01202 435345"
+      ]
+    },{
+      "tag": "Recruitment",
+      "patterns": [
+        "I would like to work here",
+        "I would like to apply for a job.",
+        "Can I apply for a job?",
+        "How do I apply for a job?",
+        "How can I apply to work here?",
+        "How can I apply for a job?",
+        "Is there any job opportunities?",
+        "Looking for a job.",
+        "I'm looking for a job.",
+        "How can I work here?",
+        "How can I work for you?",
+        "Are there any jobs available?",
+        "Are there any job opportunities?",
+        "Is there any available jobs?"
+      ],
+      "responses": [
+        "Its great to hear that you would like to be apart of our team! Please go to https://xyz.com/recruitment for more info and/or to apply!"
+      ]
+    },
+    {
+      "tag": "Website",
+      "patterns": [
+        "Website.",
+        "What is your website?",
+        "What's your website?",
+        "Can I have your website?",
+        "How do I access your site?",
+        "What is the website?",
+        "What is the website for the train company?"
+      ],
+      "responses": [
+        "Our website can be found at: https://xyz.com"
+      ]
+    },
+    {
+      "tag": "FAQ",
+      "patterns": [
+        "FAQ",
+        "Where can I find the FAQ?",
+        "What is your FAQ?",
+        "Can I see your FAQ?",
+        "How do I access the FAQ?",
+        "Where is the FAQ?",
+        "How to see the FAQ?"
+      ],
+      "responses": [
+        "Our FAQ can be found at: https://xyz.com/FAQ"
+      ]
+    }
+  ]
+}
+
