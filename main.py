@@ -34,6 +34,7 @@ def run():
         user_sentence = input("You: ")
         # if the user types quit. the program will end
         if user_sentence.lower() == "quit":
+            print("Thank you for using customer support, bye!")
             break
 
         # tokenizes the users input and calls the bag_of_words function
